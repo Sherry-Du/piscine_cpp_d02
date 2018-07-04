@@ -35,7 +35,7 @@ namespace Federation{
 	void Ship::promote(Captain* captain){
 	    this->_captain = captain;
 	    std::cout<<captain->getName()
-		<<": I’m glad to be the captain of the USS "<<this->_name<<"."<<std::endl;
+		<<": I'm glad to be the captain of the USS "<<this->_name<<"."<<std::endl;
 	}
 
 	bool Ship::move(int warp, Destination d){
